@@ -1,0 +1,6 @@
+framework module YoMediator {
+  umbrella header "YoMediator-umbrella.h"
+
+  export *
+  module * { export * }
+}

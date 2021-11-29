@@ -13,6 +13,7 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		849294742754803D00E8516D /* TestViewCtl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849294732754803D00E8516D /* TestViewCtl.swift */; };
 		BBAC67150A1CBC2D52C71AF1 /* Pods_YoMediator_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 849741F9E4F4437EAB3C1932 /* Pods_YoMediator_Example.framework */; };
 		CB986ED2D626702E35658D2E /* Pods_YoMediator_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A816FDED613B054E27DF98B /* Pods_YoMediator_Tests.framework */; };
 /* End PBXBuildFile section */
@@ -30,7 +31,7 @@
 /* Begin PBXFileReference section */
 		188E704210F2717C2B762BB0 /* Pods-YoMediator_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YoMediator_Example.debug.xcconfig"; path = "Target Support Files/Pods-YoMediator_Example/Pods-YoMediator_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		30C4886823C2D5C0A9C44F81 /* Pods-YoMediator_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YoMediator_Tests.debug.xcconfig"; path = "Target Support Files/Pods-YoMediator_Tests/Pods-YoMediator_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		40E2943422FC6D7326ED3BBC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		40E2943422FC6D7326ED3BBC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* YoMediator_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YoMediator_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -41,10 +42,11 @@
 		607FACE51AFB9204008FA782 /* YoMediator_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YoMediator_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
+		849294732754803D00E8516D /* TestViewCtl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewCtl.swift; sourceTree = "<group>"; };
 		849741F9E4F4437EAB3C1932 /* Pods_YoMediator_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YoMediator_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A816FDED613B054E27DF98B /* Pods_YoMediator_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YoMediator_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C2F493E1E6E35EE292B370F6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		CBB1D8B494C4D503FEABF116 /* YoMediator.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = YoMediator.podspec; path = ../YoMediator.podspec; sourceTree = "<group>"; };
+		C2F493E1E6E35EE292B370F6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		CBB1D8B494C4D503FEABF116 /* YoMediator.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YoMediator.podspec; path = ../YoMediator.podspec; sourceTree = "<group>"; };
 		D88724FE700F126A265F292C /* Pods-YoMediator_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YoMediator_Example.release.xcconfig"; path = "Target Support Files/Pods-YoMediator_Example/Pods-YoMediator_Example.release.xcconfig"; sourceTree = "<group>"; };
 		F3DC271AE0C66EE6D08CCE98 /* Pods-YoMediator_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YoMediator_Tests.release.xcconfig"; path = "Target Support Files/Pods-YoMediator_Tests/Pods-YoMediator_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -86,7 +88,6 @@
 				30C4886823C2D5C0A9C44F81 /* Pods-YoMediator_Tests.debug.xcconfig */,
 				F3DC271AE0C66EE6D08CCE98 /* Pods-YoMediator_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -116,6 +117,7 @@
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				849294732754803D00E8516D /* TestViewCtl.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -213,6 +215,7 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = Y2V4DQAG79;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
@@ -227,6 +230,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -291,10 +295,12 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-YoMediator_Example/Pods-YoMediator_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 				"${BUILT_PRODUCTS_DIR}/YoMediator/YoMediator.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YoMediator.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -331,6 +337,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				849294742754803D00E8516D /* TestViewCtl.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
@@ -478,6 +485,7 @@
 			baseConfigurationReference = 188E704210F2717C2B762BB0 /* Pods-YoMediator_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Y2V4DQAG79;
 				INFOPLIST_FILE = YoMediator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -493,6 +501,7 @@
 			baseConfigurationReference = D88724FE700F126A265F292C /* Pods-YoMediator_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Y2V4DQAG79;
 				INFOPLIST_FILE = YoMediator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;

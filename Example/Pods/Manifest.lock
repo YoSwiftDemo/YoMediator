@@ -1,0 +1,23 @@
+PODS:
+  - SnapKit (4.2.0)
+  - YoMediator (0.1.0)
+
+DEPENDENCIES:
+  - SnapKit
+  - YoMediator (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - SnapKit
+
+EXTERNAL SOURCES:
+  YoMediator:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+  YoMediator: a505ffbbda79122aa1b5995f44639d01e723e0a1
+
+PODFILE CHECKSUM: 3f41bd47c26cc895256755873aa05b8369621991
+
+COCOAPODS: 1.11.2

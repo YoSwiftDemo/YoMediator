@@ -1,11 +1,3 @@
-#
-# Be sure to run `pod lib lint YoMediator.podspec' to ensure this is a
-# valid spec before submitting.
-#
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see https://guides.cocoapods.org/syntax/podspec.html
-#
-
 Pod::Spec.new do |s|
   s.name             = 'YoMediator'
   s.version          = '0.1.0'
@@ -40,3 +32,5 @@ TODO: Add long description of the pod here.
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
+
+# pod spec lint YoMediator.podspec --verbose --no-clean --allow-warnings

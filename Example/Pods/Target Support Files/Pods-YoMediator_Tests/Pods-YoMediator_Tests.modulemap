@@ -1,0 +1,6 @@
+framework module Pods_YoMediator_Tests {
+  umbrella header "Pods-YoMediator_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
